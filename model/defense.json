@@ -1,0 +1,35 @@
+{
+ "item_mean_rmse": 0.9547769155372386,
+ "rows": [
+  {
+   "q": 0.0,
+   "reid_learned": 99.0,
+   "reid_rarity": 96.6,
+   "rec_rmse": 0.8614
+  },
+  {
+   "q": 0.1,
+   "reid_learned": 93.4,
+   "reid_rarity": 79.9,
+   "rec_rmse": 0.9198
+  },
+  {
+   "q": 0.25,
+   "reid_learned": 84.8,
+   "reid_rarity": 59.8,
+   "rec_rmse": 1.0234
+  },
+  {
+   "q": 0.5,
+   "reid_learned": 71.0,
+   "reid_rarity": 38.4,
+   "rec_rmse": 1.2046
+  },
+  {
+   "q": 0.75,
+   "reid_learned": 47.6,
+   "reid_rarity": 15.0,
+   "rec_rmse": 1.3729
+  }
+ ]
+}

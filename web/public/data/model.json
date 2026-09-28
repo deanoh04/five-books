@@ -1,0 +1,258 @@
+{
+ "theta": [
+  25.591465449464582,
+  25.06938027881947,
+  -19.563394326415143,
+  3.5893227066075846,
+  2.231651770539624,
+  -2.4399791092634207
+ ],
+ "n_users": 53424,
+ "n_books": 10000,
+ "n_ratings": 5976479,
+ "book_shards": 128,
+ "users_per_shard": 500,
+ "curve": {
+  "0.0|1": {
+   "exact": 0.7,
+   "rarity": 0.7,
+   "learned": 1.2,
+   "learned_top10": 10.8
+  },
+  "0.0|2": {
+   "exact": 32.7,
+   "rarity": 32.7,
+   "learned": 37.9,
+   "learned_top10": 81.3
+  },
+  "0.0|3": {
+   "exact": 80.4,
+   "rarity": 80.4,
+   "learned": 86.9,
+   "learned_top10": 98.7
+  },
+  "0.0|4": {
+   "exact": 96.4,
+   "rarity": 96.4,
+   "learned": 97.5,
+   "learned_top10": 99.8
+  },
+  "0.0|5": {
+   "exact": 99.5,
+   "rarity": 99.5,
+   "learned": 99.7,
+   "learned_top10": 100.0
+  },
+  "0.0|6": {
+   "exact": 99.9,
+   "rarity": 99.9,
+   "learned": 100.0,
+   "learned_top10": 100.0
+  },
+  "0.0|8": {
+   "exact": 99.8,
+   "rarity": 99.8,
+   "learned": 99.8,
+   "learned_top10": 100.0
+  },
+  "0.0|10": {
+   "exact": 100.0,
+   "rarity": 100.0,
+   "learned": 100.0,
+   "learned_top10": 100.0
+  },
+  "0.3|1": {
+   "exact": 1.0,
+   "rarity": 1.0,
+   "learned": 1.2,
+   "learned_top10": 7.8
+  },
+  "0.3|2": {
+   "exact": 18.9,
+   "rarity": 25.5,
+   "learned": 29.0,
+   "learned_top10": 66.5
+  },
+  "0.3|3": {
+   "exact": 28.6,
+   "rarity": 61.3,
+   "learned": 72.3,
+   "learned_top10": 94.8
+  },
+  "0.3|4": {
+   "exact": 20.9,
+   "rarity": 81.7,
+   "learned": 89.4,
+   "learned_top10": 98.7
+  },
+  "0.3|5": {
+   "exact": 14.3,
+   "rarity": 94.2,
+   "learned": 96.5,
+   "learned_top10": 100.0
+  },
+  "0.3|6": {
+   "exact": 11.0,
+   "rarity": 97.7,
+   "learned": 99.2,
+   "learned_top10": 100.0
+  },
+  "0.3|8": {
+   "exact": 4.7,
+   "rarity": 99.8,
+   "learned": 100.0,
+   "learned_top10": 100.0
+  },
+  "0.3|10": {
+   "exact": 2.8,
+   "rarity": 99.7,
+   "learned": 99.7,
+   "learned_top10": 100.0
+  }
+ },
+ "ks": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  8,
+  10
+ ],
+ "defense": {
+  "item_mean_rmse": 0.9547769155372386,
+  "rows": [
+   {
+    "q": 0.0,
+    "reid_learned": 99.0,
+    "reid_rarity": 96.6,
+    "rec_rmse": 0.8614
+   },
+   {
+    "q": 0.1,
+    "reid_learned": 93.4,
+    "reid_rarity": 79.9,
+    "rec_rmse": 0.9198
+   },
+   {
+    "q": 0.25,
+    "reid_learned": 84.8,
+    "reid_rarity": 59.8,
+    "rec_rmse": 1.0234
+   },
+   {
+    "q": 0.5,
+    "reid_learned": 71.0,
+    "reid_rarity": 38.4,
+    "rec_rmse": 1.2046
+   },
+   {
+    "q": 0.75,
+    "reid_learned": 47.6,
+    "reid_rarity": 15.0,
+    "rec_rmse": 1.3729
+   }
+  ]
+ },
+ "headline": {
+  "k5_noise30": {
+   "exact": 15.0,
+   "rarity": 92.7,
+   "learned": 97.4,
+   "learned_se": 0.3
+  },
+  "k5_clean": {
+   "exact": 99.4,
+   "rarity": 99.4,
+   "learned": 99.6,
+   "learned_se": 0.1
+  },
+  "k3_noise30": {
+   "exact": 26.8,
+   "rarity": 58.7,
+   "learned": 68.7,
+   "learned_se": 0.8
+  },
+  "k3_clean": {
+   "exact": 80.4,
+   "rarity": 80.4,
+   "learned": 85.2,
+   "learned_se": 0.6
+  },
+  "k5_noise30_popular": {
+   "exact": 5.6,
+   "rarity": 12.2,
+   "learned": 15.5,
+   "learned_se": 0.7
+  },
+  "k8_noise30_popular": {
+   "exact": 4.0,
+   "rarity": 43.4,
+   "learned": 49.5,
+   "learned_se": 0.9
+  },
+  "calibration": [
+   {
+    "bucket": "0-10%",
+    "n": 2869,
+    "avg_conf": 4.6,
+    "hit_rate": 6.0
+   },
+   {
+    "bucket": "10-20%",
+    "n": 1479,
+    "avg_conf": 14.7,
+    "hit_rate": 23.1
+   },
+   {
+    "bucket": "20-30%",
+    "n": 1007,
+    "avg_conf": 24.6,
+    "hit_rate": 37.8
+   },
+   {
+    "bucket": "30-40%",
+    "n": 835,
+    "avg_conf": 34.7,
+    "hit_rate": 49.9
+   },
+   {
+    "bucket": "40-50%",
+    "n": 708,
+    "avg_conf": 45.1,
+    "hit_rate": 64.1
+   },
+   {
+    "bucket": "50-60%",
+    "n": 621,
+    "avg_conf": 54.8,
+    "hit_rate": 72.1
+   },
+   {
+    "bucket": "60-70%",
+    "n": 579,
+    "avg_conf": 65.0,
+    "hit_rate": 81.9
+   },
+   {
+    "bucket": "70-80%",
+    "n": 664,
+    "avg_conf": 74.8,
+    "hit_rate": 90.5
+   },
+   {
+    "bucket": "80-90%",
+    "n": 884,
+    "avg_conf": 85.2,
+    "hit_rate": 96.8
+   },
+   {
+    "bucket": "90-100%",
+    "n": 8354,
+    "avg_conf": 98.7,
+    "hit_rate": 99.8
+   }
+  ]
+ }
+}

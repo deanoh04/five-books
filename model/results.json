@@ -1,0 +1,203 @@
+{
+ "theta": [
+  25.591465449464582,
+  25.06938027881947,
+  -19.563394326415143,
+  3.5893227066075846,
+  2.231651770539624,
+  -2.4399791092634207
+ ],
+ "feature_names": [
+  "rarity-weighted exact matches",
+  "rarity-weighted off-by-one matches",
+  "rarity-weighted big mismatches",
+  "books matched (count)",
+  "exact matches (count)",
+  "log shelf size"
+ ],
+ "results": {
+  "0.0|1": {
+   "exact": 0.7,
+   "rarity": 0.7,
+   "learned": 1.2,
+   "learned_top10": 10.8
+  },
+  "0.0|2": {
+   "exact": 32.7,
+   "rarity": 32.7,
+   "learned": 37.9,
+   "learned_top10": 81.3
+  },
+  "0.0|3": {
+   "exact": 80.4,
+   "rarity": 80.4,
+   "learned": 86.9,
+   "learned_top10": 98.7
+  },
+  "0.0|4": {
+   "exact": 96.4,
+   "rarity": 96.4,
+   "learned": 97.5,
+   "learned_top10": 99.8
+  },
+  "0.0|5": {
+   "exact": 99.5,
+   "rarity": 99.5,
+   "learned": 99.7,
+   "learned_top10": 100.0
+  },
+  "0.0|6": {
+   "exact": 99.9,
+   "rarity": 99.9,
+   "learned": 100.0,
+   "learned_top10": 100.0
+  },
+  "0.0|8": {
+   "exact": 99.8,
+   "rarity": 99.8,
+   "learned": 99.8,
+   "learned_top10": 100.0
+  },
+  "0.0|10": {
+   "exact": 100.0,
+   "rarity": 100.0,
+   "learned": 100.0,
+   "learned_top10": 100.0
+  },
+  "0.3|1": {
+   "exact": 1.0,
+   "rarity": 1.0,
+   "learned": 1.2,
+   "learned_top10": 7.8
+  },
+  "0.3|2": {
+   "exact": 18.9,
+   "rarity": 25.5,
+   "learned": 29.0,
+   "learned_top10": 66.5
+  },
+  "0.3|3": {
+   "exact": 28.6,
+   "rarity": 61.3,
+   "learned": 72.3,
+   "learned_top10": 94.8
+  },
+  "0.3|4": {
+   "exact": 20.9,
+   "rarity": 81.7,
+   "learned": 89.4,
+   "learned_top10": 98.7
+  },
+  "0.3|5": {
+   "exact": 14.3,
+   "rarity": 94.2,
+   "learned": 96.5,
+   "learned_top10": 100.0
+  },
+  "0.3|6": {
+   "exact": 11.0,
+   "rarity": 97.7,
+   "learned": 99.2,
+   "learned_top10": 100.0
+  },
+  "0.3|8": {
+   "exact": 4.7,
+   "rarity": 99.8,
+   "learned": 100.0,
+   "learned_top10": 100.0
+  },
+  "0.3|10": {
+   "exact": 2.8,
+   "rarity": 99.7,
+   "learned": 99.7,
+   "learned_top10": 100.0
+  }
+ },
+ "n_test": 600,
+ "ks": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  8,
+  10
+ ],
+ "noises": [
+  0.0,
+  0.3
+ ],
+ "theta_uncalibrated": [
+  16.51062287062231,
+  16.173793728270624,
+  -12.621544726719447,
+  2.3156920687790867,
+  1.4397753358320153,
+  -1.5741800704925295
+ ],
+ "temperature": 1.55,
+ "calibration": [
+  {
+   "bucket": "0-10%",
+   "n": 206,
+   "avg_conf": 2.6,
+   "hit_rate": 1.5
+  },
+  {
+   "bucket": "10-20%",
+   "n": 32,
+   "avg_conf": 15.0,
+   "hit_rate": 18.8
+  },
+  {
+   "bucket": "20-30%",
+   "n": 34,
+   "avg_conf": 25.4,
+   "hit_rate": 23.5
+  },
+  {
+   "bucket": "30-40%",
+   "n": 20,
+   "avg_conf": 35.2,
+   "hit_rate": 60.0
+  },
+  {
+   "bucket": "40-50%",
+   "n": 20,
+   "avg_conf": 44.8,
+   "hit_rate": 45.0
+  },
+  {
+   "bucket": "50-60%",
+   "n": 22,
+   "avg_conf": 55.9,
+   "hit_rate": 72.7
+  },
+  {
+   "bucket": "60-70%",
+   "n": 12,
+   "avg_conf": 63.9,
+   "hit_rate": 75.0
+  },
+  {
+   "bucket": "70-80%",
+   "n": 12,
+   "avg_conf": 74.9,
+   "hit_rate": 91.7
+  },
+  {
+   "bucket": "80-90%",
+   "n": 24,
+   "avg_conf": 85.9,
+   "hit_rate": 91.7
+  },
+  {
+   "bucket": "90-100%",
+   "n": 1118,
+   "avg_conf": 99.8,
+   "hit_rate": 100.0
+  }
+ ],
+ "ece": 1.3
+}

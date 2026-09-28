@@ -1,0 +1,6 @@
+node_modules/
+web/dist/
+model/ratings.csv
+model/*.log
+__pycache__/
+.DS_Store
