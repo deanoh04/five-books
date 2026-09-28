@@ -1,5 +1,7 @@
 # Five Books Is Enough
 
+**[Live demo →](https://five-books.vercel.app/)**
+
 Name five books someone has rated, even with a few stars misremembered, and this model picks them out of **53,424 real Goodreads readers** with **97.4% accuracy**. Exact star matching on the same test gets 15.0%.
 
 The demo runs entirely in the browser. Draw a random real reader, show the model 5 of their ratings, and watch it find them. Then try to hide a reader yourself.
